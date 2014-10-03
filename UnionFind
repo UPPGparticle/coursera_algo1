@@ -1,0 +1,12 @@
+class UnionFind(object):
+    def __init__(self, n):
+        self.nodes = range(1, n+1)
+        for i in range(n):
+            a, b = map(int, raw_input().split())
+            self.union(a, b)
+        
+    def union(self, a, b):
+        
+        
+    def connected(self, a, b):
+        
